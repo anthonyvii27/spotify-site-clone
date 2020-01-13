@@ -43,10 +43,9 @@ nav.navbar-transparente {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
-	color: green;
+	color: rgb(28, 161, 1);
 	background: none;
 }
-
 
 /* SEÇÃO 1 */
 #oferta {
@@ -77,7 +76,7 @@ nav.navbar-transparente {
 	-webkit-border-radius: 500px;
     -moz-border-radius: 500px;
     text-transform: uppercase;
-    transition: background 0.4s, color 0.4s;
+    transition: 0.4s;
     font-size: 13px;
     padding: 15px 50px 15px 50px;
     letter-spacing: 0.08em;
@@ -87,13 +86,20 @@ nav.navbar-transparente {
 	background: #121212;
 }
 
+.botao-preto:hover {
+	background-color: #303030;
+}
+
 .legend {
 	font-size: 10px;
 	color: #121212;
 }
 
-/* SEÇÃO 2*/
+.img-responsive {
+	width: 150px;
+}
 
+/* SEÇÃO 2*/
 #gratis {
 	background: url('imagens/hero-burst-cropped.svg') no-repeat;
 	padding-bottom: 170px
@@ -103,9 +109,17 @@ nav.navbar-transparente {
 	background: green;
 }
 
+.botao-verde:hover {
+	background: rgb(28, 161, 1);
+}
+
 /* SEÇÃO 3 */
 .botao-rosa {
 	background: #F037A5;
+}
+
+.botao-rosa:hover {
+	background: #F070A5;
 }
 
 #seu-spotify {
@@ -129,6 +143,11 @@ nav.navbar-transparente {
 	color: #FFF;
 	letter-spacing: 0.01em;
 	font-size: 15px;
+}
+
+#pre-rodape a:hover {
+	background: none;
+	color: rgb(28, 161, 1);
 }
 
 /* RODAPÉ */
