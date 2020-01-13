@@ -1,0 +1,15 @@
+Rosa: #F037A5
+Preto: #121212
+Branco: #ffffff
+Laranja: #FAE62D
+Verde: #CDF564
+Cinza: #919496
+
+Fonte: Helvetica,Arial,sans-serif;
+
+Gradiente com #F037A5 e #FAE62D
+
+
+Faltam:
+- Hover dos itens
+- Ajeitar com media query algumas partes que no mobile ficam errada.

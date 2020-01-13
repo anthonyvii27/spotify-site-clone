@@ -1,0 +1,213 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background: linear-gradient(#F037A5,#FAE62D);
+	background-attachment: fixed;
+}
+
+/* NAVBAR */
+.img-logo {
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('imagens/spotify.svg') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
+	color: green;
+	background: none;
+}
+
+
+/* SEÇÃO 1 */
+#oferta {
+	background: #F037A5;
+}
+
+.secao1 {
+	padding-top: 150px;
+	padding-bottom: 30px;
+	margin-right: -50px;
+}
+
+.secao1 img {
+	width: 500px;
+}
+
+.area-texto {
+	padding-right: 100px;
+}
+
+.area-img {
+	padding-left: 70px;
+}
+
+.botao {
+	color: #FFF;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    font-size: 13px;
+    padding: 15px 50px 15px 50px;
+    letter-spacing: 0.08em;
+}
+
+.botao-preto {
+	background: #121212;
+}
+
+.legend {
+	font-size: 10px;
+	color: #121212;
+}
+
+/* SEÇÃO 2*/
+
+#gratis {
+	background: url('imagens/hero-burst-cropped.svg') no-repeat;
+	padding-bottom: 170px
+}
+
+.botao-verde {
+	background: green;
+}
+
+/* SEÇÃO 3 */
+.botao-rosa {
+	background: #F037A5;
+}
+
+#seu-spotify {
+	padding-top: 115px;
+	padding-bottom: 170px; 
+	background: #CDF564;
+}
+
+/* PRÉ-RODAPÉ */
+#pre-rodape {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+.item-rede-social{
+	float: right;
+}
+
+#pre-rodape a {
+	color: #FFF;
+	letter-spacing: 0.01em;
+	font-size: 15px;
+}
+
+/* RODAPÉ */
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+.item {
+	float: left;
+	padding: 15px;
+	font-size: 12px;
+	list-style: none;
+}
+
+.item2 {
+	float: right;
+	padding: 15px;
+	font-size: 12px;
+	list-style: none;
+	color: #919496;
+	text-align: right;
+}
+
+#rodape a {
+	color: #919496;
+}
+
+/* ------------------------- */
+h1 {
+	font-size: 55px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+}
+
+h2 {
+	padding-top: 10px;
+	padding-bottom: 50px;
+	font-size: 22px;
+	letter-spacing: 0.01em;
+    line-height: 1.2;
+}
+
+h3 {
+	font-size: 17px;
+	letter-spacing: -0.03em;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+h4 {
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+h6 {
+	padding-top: 80px;
+}
+
+h6 a{
+	color: #121212;
+	text-decoration: underline;
+}
+
+.texto-preto {
+	color: #121212;
+}
+
+.texto-branco {
+	color: #FFF;
+}
+
+.texto-rosa {
+	color: #F037A5;
+}
+
+h1.texto-branco {
+	padding-top: 150px;
+}
